@@ -36,5 +36,25 @@ namespace HopeHospital
         }
 
         //METHODS
+        public override void EmployeeInfo()
+        {
+            Console.Write(this.empName + "\t");
+            Console.Write(this.empNumber + "\t");
+            Console.Write(this.department + "\t");
+            Console.Write("\t");
+            Console.Write(this.isOnPhone +"\n");
+
+        }
+        public override void IsEmployeeWorking()
+        {
+            if (this.isOnPhone == true)
+            {
+                Console.WriteLine("Receptionist {0} is on the phone now in {1}.", this.empName, this.department);
+            }
+            else
+            {
+                Console.WriteLine("Receptionist {0} is not on the phone.", this.empName);
+            }
+        }
     }
 }

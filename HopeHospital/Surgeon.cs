@@ -36,5 +36,26 @@ namespace HopeHospital
         }
 
         //METHODS
+        public override void EmployeeInfo()
+        {
+            Console.Write(this.empName + "\t");
+            Console.Write(this.empNumber + "\t");
+            Console.Write(this.specialtyArea + "\t");
+            Console.Write("\t");
+            Console.Write(this.isOperating + "\n");
+
+        }
+
+        public override void IsEmployeeWorking()
+        {
+            if(this.isOperating == true)
+            {
+                Console.WriteLine("Surgeon {0} is operating now in the {1} OR.", this.empName, this.specialtyArea);
+            }
+            else
+            {
+                Console.WriteLine("Surgeon {0} is not operating now.", this.empName);
+            }
+        }
     }
 }

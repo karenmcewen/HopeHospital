@@ -28,6 +28,15 @@ namespace HopeHospital
         }
 
         //METHODS
+        public override void EmployeeInfo()
+        {
+            
+            Console.Write(this.empName+"\t");
+            Console.Write(this.empNumber + "\t");
+            Console.Write(this.specialtyArea + "\n");
+
+        }
+
 
 
     }

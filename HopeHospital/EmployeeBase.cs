@@ -46,15 +46,16 @@ namespace HopeHospital
         }
 
         //METHODS -derived classes can override methods from the parent class using "virtual" keyword
-        public virtual void Stretch()
+        public virtual void EmployeeInfo()
         {
             
-        }
-
-        public virtual string AnotherStretch()
-        {
             
+        }
+        public virtual void IsEmployeeWorking()
+        {
 
         }
+
+       
     }
 }

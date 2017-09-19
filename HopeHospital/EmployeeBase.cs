@@ -12,9 +12,10 @@ namespace HopeHospital
         //protected fields - can be accessed by parent and derived classes
         protected int empNumber;
         protected string empName;
-        
+        //payRate
+        //numberHoursWorked
 
-        //private fields - can only be accessed by this class
+       //private fields - can only be accessed by this class
        //none at this time
 
         //PROPERTIES
@@ -56,6 +57,9 @@ namespace HopeHospital
 
         }
 
-       
+       public virtual void PayEmployee()
+        {
+
+        }
     }
 }

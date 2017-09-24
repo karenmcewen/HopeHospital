@@ -31,8 +31,7 @@ namespace HopeHospital
             this.empNumber = empNumber;
             this.empName = empName;
             this.specialtyArea = specialtyArea;
-            this.isOperating = isOperating;
-            
+            this.isOperating = isOperating;            
         }
 
         //METHODS
@@ -44,6 +43,7 @@ namespace HopeHospital
             Console.Write("\t");
             Console.Write(this.isOperating + "\n");
 
+            //string employeeList = ($"{empName}\t\t{empNumber}\t\t{specialtyArea}\t\t{isOperating})
         }
 
         public override void IsEmployeeWorking()

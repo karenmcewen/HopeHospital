@@ -24,20 +24,15 @@ namespace HopeHospital
             this.empNumber = empNumber;
             this.empName = empName;
             this.specialtyArea = specialtyArea;
-
         }
 
         //METHODS
         public override void EmployeeInfo()
-        {
-            
+        {            
             Console.Write(this.empName+"\t");
             Console.Write(this.empNumber + "\t");
             Console.Write(this.specialtyArea + "\n");
-
         }
-
-
 
     }
 }

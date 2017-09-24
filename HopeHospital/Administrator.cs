@@ -24,9 +24,8 @@ namespace HopeHospital
             this.empNumber = empNumber;
             this.empName = empName;
             this.department = department;
-
         }
 
-        //METHODS
+        //METHODS - this class uses only inherited methods, and does not need to overwrite any
     }
 }

@@ -32,7 +32,6 @@ namespace HopeHospital
             this.empName = empName;
             this.department = department;
             this.isSweeping = isSweeping;
-
         }
 
         //METHODS
@@ -43,7 +42,6 @@ namespace HopeHospital
             Console.Write(this.department + "\t");
             Console.Write("\t");
             Console.Write(this.isSweeping + "\n");
-
         }
 
         public override void IsEmployeeWorking()

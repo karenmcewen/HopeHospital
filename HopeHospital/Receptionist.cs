@@ -32,7 +32,6 @@ namespace HopeHospital
             this.empName = empName;
             this.department = department;
             this.isOnPhone = isOnPhone;
-
         }
 
         //METHODS

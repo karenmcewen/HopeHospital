@@ -24,7 +24,6 @@ namespace HopeHospital
             this.empNumber = empNumber;
             this.empName = empName;
             this.numPatients = numPatients;
-
         }
 
         //METHODS
@@ -33,8 +32,7 @@ namespace HopeHospital
             Console.Write(this.empName + "\t");
             Console.Write(this.empNumber + "\t");
             Console.Write("\t");
-            Console.Write(this.numPatients + "\n");
-            
+            Console.Write(this.numPatients + "\n");            
         }
     }
 }
